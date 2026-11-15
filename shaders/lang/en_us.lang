@@ -1,0 +1,37 @@
+screen.XRAY=X-ray Toggles
+screen.VIS=Vision & Visuals
+screen.ADV=Advanced
+screen.XRAY.comment=Show entities, chests and beds through walls
+screen.VIS.comment=Night vision, entity shadows, and target brightness / fog
+screen.ADV.comment=F1 panic key and debug tint
+
+option.XRAY_PLAYERS=Player X-ray
+option.XRAY_PLAYERS.comment=Applies to the whole entity pass using the original method. Mobs, dropped items and arrows come along
+option.XRAY_CHESTS=Chest X-ray
+option.XRAY_CHESTS.comment=Chests, ender chests, barrels, shulker boxes and other block entities (signs, banners and beacon beams come along)
+option.XRAY_BEDS=Bed X-ray
+option.XRAY_BEDS.comment=All 16 bed colours through walls (single bed before 1.12)
+
+option.NAMETAG_BG=Name Plate
+option.NAMETAG_BG.comment=Style of the black box behind nametags. The vanilla translucency reads as solid black here, so dropping it is an option
+value.NAMETAG_BG.0=Vanilla
+value.NAMETAG_BG.1=Hidden
+value.NAMETAG_BG.2=Translucent
+
+option.NIGHT_VISION=Night Vision
+option.NIGHT_VISION.comment=Render the whole world at full brightness; no torches needed underground
+option.NO_ENTITY_SHADOW=Remove Entity Shadows
+option.NO_ENTITY_SHADOW.comment=Drops the vanilla blob shadow so no dark patch follows entities while x-ray is on
+option.XRAY_FULLBRIGHT=Fullbright Targets
+option.XRAY_FULLBRIGHT.comment=Only the x-rayed entities / chests / beds ignore the lightmap; the rest of the world is untouched
+option.XRAY_NOFOG=No Fog On Targets
+option.XRAY_NOFOG.comment=Keep distant targets from fading into the fog colour
+
+option.XRAY_F1_PANIC=F1 Panic Off
+option.XRAY_F1_PANIC.comment=Hiding the HUD with F1 also turns every x-ray off, handy before a screenshot
+option.XRAY_DEBUG=Debug Tint
+option.XRAY_DEBUG.comment=Paints every fragment classified as an x-ray target magenta. No magenta means it did not match
+
+profile.ALL=All On
+profile.OFF=All Off
+profile.comment=Toggle every x-ray and night vision option at once

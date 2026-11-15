@@ -1,0 +1,37 @@
+screen.XRAY=透视开关
+screen.VIS=夜视与视觉
+screen.ADV=高级
+screen.XRAY.comment=玩家实体、箱子、床三个渲染阶段的穿墙显示
+screen.VIS.comment=夜视、实体阴影、以及透视目标的亮度与雾
+screen.ADV.comment=F1 应急开关与调试
+
+option.XRAY_PLAYERS=玩家透视
+option.XRAY_PLAYERS.comment=对整段实体渲染生效，用的是最初那套写法。生物、掉落物、箭矢也会一起透视
+option.XRAY_CHESTS=箱子透视
+option.XRAY_CHESTS.comment=箱子、末影箱、木桶、潜影盒等方块实体穿墙显示（告示牌、旗帜、信标光柱也会跟着透）
+option.XRAY_BEDS=床透视
+option.XRAY_BEDS.comment=16 色床穿墙显示（1.11 及更早为单色床）
+
+option.NAMETAG_BG=名称底板
+option.NAMETAG_BG.comment=名称后面那块黑色底板的样式。原版半透明在黑底上容易被看成纯黑，可以干脆去掉
+value.NAMETAG_BG.0=保留原版
+value.NAMETAG_BG.1=隐藏底板
+value.NAMETAG_BG.2=半透明底板
+
+option.NIGHT_VISION=夜视
+option.NIGHT_VISION.comment=整个世界按满亮度渲染，洞穴里不需要火把
+option.NO_ENTITY_SHADOW=去掉实体阴影
+option.NO_ENTITY_SHADOW.comment=移除实体脚下的原版黑色投影，透视时不再有黑影跟着玩家飘
+option.XRAY_FULLBRIGHT=透视目标全亮
+option.XRAY_FULLBRIGHT.comment=只让穿墙显示的实体/箱子/床不受光照影响，世界其余部分不变
+option.XRAY_NOFOG=透视目标免雾
+option.XRAY_NOFOG.comment=远处目标不再被雾染成天空色
+
+option.XRAY_F1_PANIC=F1 应急关闭
+option.XRAY_F1_PANIC.comment=按 F1 隐藏 HUD 时同时关闭全部透视，方便截图
+option.XRAY_DEBUG=调试着色
+option.XRAY_DEBUG.comment=把所有被判定为"透视目标"的像素涂成品红色。看不到品红说明没匹配上
+
+profile.ALL=全开
+profile.OFF=全关
+profile.comment=一键切换全部透视与夜视
